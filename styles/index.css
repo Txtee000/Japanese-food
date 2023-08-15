@@ -35,14 +35,14 @@
     height: 267px;
     border-radius: 400px;
     text-align: center;
-    margin: 52px 60px;
+    margin: 52px 62px;
 }
 .section .bg_wrap{
     position: absolute;
     /* background-color: blue; */ /*bg กรอบคัต */
     width: 267px; /*กรอบคัต รูป*/
     height: 267px;
-    left: 60px;
+    left: 62px;
     top: 111px;
     border-radius: 300px;
     overflow: hidden; /*ภาพอื่นถูกซ่อน*/
