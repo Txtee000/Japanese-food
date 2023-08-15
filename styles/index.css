@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   
+    font-family: MN MINI;
 
 }
 .container{
@@ -9,7 +9,7 @@
     min-height: 100vh; 
     height: 1080px;
     background-color: red;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/jp\ bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.83),rgba(0, 0, 0, 0.83)),url(/images/jp\ bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative; 
@@ -27,7 +27,7 @@
     background-color: rgba(255, 109, 109, 1);
     padding: 0 20px;
     border-radius: 50px;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 .section .circle_wrap{
     background-color: rgba(255, 109, 109, 1);
