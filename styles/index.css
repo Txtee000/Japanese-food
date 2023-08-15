@@ -8,6 +8,7 @@
     width: 360px;
     min-height: 100vh;
     height: 1080px; 
+    background-color: red;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/jp\ bg.jpg);
     background-size: cover;
     background-position: center;
