@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: MN MINI,serif;
+
+}
+.container{
+    width: 625px;
+    min-height: 100vh;
+    height: 1080px; 
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/jp\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+/** todo: header japanese food**/
+
+.section .header_box{ /*area of header_box*/
+    /*background-color: blue;*/
+}
+.section .header_box h1{
+    font-family: MN MINI,serif;
+    font-size: 32px;
+    color: white;
+    padding-left: 131px;
+    padding-top: 27px;
+}
+.section .header_box h1 span{
+    background-color: rgb(211, 40, 68);
+    padding: 0 20px;
+    border-radius: 50px;
+    margin-left: 1px;
+}
+.section .circle_wrap{
+    background-color: rgb(211, 40, 68);
+    width: 267px;
+    height: 267px;
+    border-radius: 400px;
+    text-align: center;
+    margin: 52px 46px;
+}
+.section .bg_wrap{
+    position: absolute;
+    width: 500px; /*กรอบคัต รูป*/
+    height: 500px;
+    left: 20px;
+    top: 92px;
+    border-radius: 300px;
+    overflow:hiddedn; /*ภาพอื่นถูกซ่อน*/
+}
+.bg_wrap .wrapper img{
+    height: 228px; /*size pg jp food*/
+    margin-left: 10px;
+}
+.bg_wrap .wrapper img:nth-of-type(1){
+    margin: -40px 10px;
+}   
+
+.section .wrapper{
+    display: flex;
+    margin: 65px 135px; /*position picture japanese food*/
+    animation: slide 7s infinite;   
+}
+@keyframes slide{
+    0%{
+        transform: translateX(-45%);
+    }
+    10%{
+        transform: translateX(-45%);
+    }
+    20%{
+        transform: translateX(-160%);
+    } 
+    30%{
+        transform: translateX(-160%);
+    }
+    40%{
+        transform: translateX(-270%);
+    }
+    50%{
+        transform: translateX(-270%);
+    }
+    60%{
+        transform: translateX(-380%);
+    }
+    70%{
+        transform: translateX(-380%);
+    }
+    80%{
+        transform: translateX(-490%);
+    }
+    90%{
+        transform: translateX(-45%);
+    }
+    100%{
+        transform: translateX(-45%);
+    }
+    
+}
+
+/**todo: text popup**/
+.section .text_popup{
+    color: white;
+    font-size: 30px;
+}
+.section .text_popup h1{
+    position: absolute;
+    left: 850px;
+    top: 800px;
+}
+

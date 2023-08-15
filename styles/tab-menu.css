@@ -1,0 +1,80 @@
+header{
+    position: fixed;
+    left: -390px;
+    width: 180px; /*size box*/
+    height: 100%;
+    background: rgb(211, 40, 68);
+    transition: all .6s ease;
+    z-index:3;
+}
+nav ul li a img{
+    width: 10px;
+    height: 10px;
+}
+header ul li a{
+    display: block;
+    font-family:  MN MINI,serif;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding-left:   0px;
+    padding-top: 15px ;
+    padding-bottom: 20px ;
+    text-align:center;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid black ;
+    transition: .3s;
+}
+ul li:hover a{
+    padding-left: 30px;
+}
+
+#check{
+    display: none;
+}
+label img{
+    width: 30px;
+}
+label #cancel img {
+    padding: 8px;
+}
+label #btn , label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: rgb(211, 40, 68);
+    border-radius: 18px;
+}
+label #btn{
+    left: 20px;
+    top: 15px  ;
+    font-size: 35px;
+    padding: 10px 14px;
+    transition: .4s;
+    
+}
+label #cancel{
+    z-index: 5;
+    left: -90px;
+    width: 50px;
+    height: 50px;
+    top: 17px;
+    padding: 10px 10px;
+    transition: .4s;
+    
+}
+ #check:checked ~ header{
+    left: 0px;
+ }
+ #check:checked ~ label #btn{
+    left:250px;
+    opacity: 0;
+    pointer-events: none;
+ }
+ #check:checked ~ label #cancel{
+    left:185px;
+    top: 5px; /*size buttom close*/
+ }
