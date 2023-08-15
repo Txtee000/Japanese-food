@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: MN MINIMON,serif; */
+    font-family: MN MINI,serif; 
 
 }
 .container{
@@ -35,7 +35,7 @@
     height: 267px;
     border-radius: 400px;
     text-align: center;
-    margin: 52px 66px;
+    margin: 52px 100px;
 }
 .section .bg_wrap{
     position: absolute;
