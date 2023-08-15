@@ -5,7 +5,7 @@
 
 }
 .container{
-    width: 360px;
+    width: 450px;
     min-height: 100vh;
     height: 1080px; 
     background-color: red;
@@ -23,7 +23,7 @@
     font-family: MN MINI,serif;
     font-size: 32px;
     color: white;
-    padding-left: 101px;
+    padding-left: 121px;
     padding-top: 27px;
 }
 .section .header_box h1 span{
