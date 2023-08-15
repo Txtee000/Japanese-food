@@ -98,15 +98,37 @@
     }
     
 }
-
-/**todo: text popup**/
-.section .text_popup{
+/****** content ของอาหารญี่ปุ่น + js read more *******/
+.container .section2 .text-box{
+    /* background-color: blue;  */
+    width: 299px; /*area of section2*/
+    text-align: center;
+    margin:auto;
+    position: relative;
+    top: -20px;
+}
+.container .section2 .text-box span{ /*btn read more*/
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
-.section .text_popup h1{
-    position: absolute;
-    left: 850px;
-    top: 800px;
+.container .section2 .text-box p , .container .section2 .text-box p span {
+    font-family: MN MINIMON;
+    color: white;
+    font-size: 16px;
 }
 
+.container .section2 .text-box p span{ /*ซ่อนข้อความ*/
+    display: none;
+    
+}
+.container .section2 p span.show{ /*ตอนปรากฎ*/
+    display: inline;
+}
+
+/****** หมวดหมู่อาหาร *******/
+.section3 .text-box{ /*area of section3*/
+    background-color: blue;
+}
+.section3 .text-box .header{
+    color: white;
+}

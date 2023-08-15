@@ -49,19 +49,19 @@ label #cancel img {
     padding: 2px;
 }
 label #btn{
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     background: rgba(58, 58, 58, 0.69);
     border-radius: 13px;
 }
 label #cancel{
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     border-radius: 13px;
 }
 label #btn{/*about box of icon*/
     left: 20px;
-    top: 22px  ;
+    top: 22px;
     font-size: 35px;
     padding: 5px 5px;
     transition: .4s;
