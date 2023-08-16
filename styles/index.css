@@ -7,10 +7,10 @@
 .container{
     width: 100%px; /*a52 width 420px*/
     min-height: 100vh; 
-    height: 1080px;
-    background-color: red;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.83),rgba(0, 0, 0, 0.83)),url(/images/jp\ bg.jpg);
+    height: 1580px; /*height homepage*/
     background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.83),rgba(0, 0, 0, 0.83)),url(/images/jp_bg.jpg);
+    
     background-position: center;
     position: relative; 
 }
@@ -99,13 +99,20 @@
     
 }
 /****** content ของอาหารญี่ปุ่น + js read more *******/
+.section2 .link{
+    opacity: 0;
+    color: wheat;
+    
+    position: relative;
+    top: -40px;
+}
 .container .section2 .text-box{
     /* background-color: blue;  */
     width: 299px; /*area of section2*/
     text-align: center;
     margin:auto;
     position: relative;
-    top: -20px;
+    top: -40px;
 }
 .container .section2 .text-box span{ /*btn read more*/
     color: white;
@@ -126,9 +133,59 @@
 }
 
 /****** หมวดหมู่อาหาร *******/
+.section3 .link{
+    opacity: 0;
+    color: wheat;
+    position: relative;
+    top: -30px;
+}
 .section3 .text-box{ /*area of section3*/
-    background-color: blue;
+    background-color: rgba(255, 109, 109, 1);
+    border-radius: 34px;
+    width: 171px;
+    height: 33px;
+    margin-top: -30px;
+    position: relative;
+    left: 120px;  
 }
 .section3 .text-box .header{
     color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.section3 .grid-area{
+    display: grid;
+    grid-template-columns: 22% 22% 32%; /*grid of box*/
+    justify-content: space-around;
+    grid-gap: 47px 0px;
+}
+.section3 .grid-area .box{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px 0px #958383;
+    position: relative;
+    left: 32px; /*position box*/
+    top: 30px;
+    
+}
+.section3 .grid-area .box img{
+    width: 37px;
+    position: relative;
+    left: 19px;
+    top: 9px;
+}
+.section3 .grid-area .box p{
+    background-color: #706BA6;
+    text-align: center;
+    border-radius: 36px;
+    width: 41px;
+    height: 18px;
+    position: relative;
+    left: 17px;
+    top: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: MN MINIMON;
 }
