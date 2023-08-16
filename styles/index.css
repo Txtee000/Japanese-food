@@ -4,7 +4,8 @@
 }
 @font-face {
     font-family: "MN MINIMON";
-    src: url(fonts/MN MINIMON.ttf);
+    src: url(fonts/MN MINIMON.ttf);   
+}
 *{
     margin: 0;
     padding: 0;
@@ -158,6 +159,8 @@
     color: white;
     text-align: center;
     font-size: 24px;
+    font-family: "MN MINIMON" , sans-serif;
+
 }
 .section3 .grid-area{
     display: grid;
