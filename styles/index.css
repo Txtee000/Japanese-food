@@ -4,8 +4,6 @@
     font-family: MN MINI;
 
 }
-@font-face{font-family:'MN MINI';src:url('fonts/MN MINI.ttf')}
-@font-face{font-family:'MN MINIMON';src:url('fonts/MN MINIMON.TTF')}
 .container{
     width: 100%px; /*a52 width 420px*/
     min-height: 100vh; 
