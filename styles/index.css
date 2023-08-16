@@ -4,13 +4,14 @@
     font-family: MN MINI;
 
 }
+@font-face{font-family:'MN MINI';src:url('fonts/MN MINI.ttf')}
+@font-face{font-family:'MN MINIMON';src:url('fonts/MN MINIMON.TTF')}
 .container{
     width: 100%px; /*a52 width 420px*/
     min-height: 100vh; 
     height: 1580px; /*height homepage*/
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.83),rgba(0, 0, 0, 0.83)),url(/images/jp_bg.jpg);
-    
     background-position: center;
     position: relative; 
 }
@@ -119,7 +120,7 @@
     font-size: 20px;
 }
 .container .section2 .text-box p , .container .section2 .text-box p span {
-    /* font-family: MN MINIMON; */
+    font-family: MN MINIMON;
     color: white;
     font-size: 16px;
 }
@@ -187,5 +188,5 @@
     top: 10px;
     color: white;
     font-size: 14px;
-    /* font-family: MN MINIMON; */
+    font-family: MN MINIMON;
 }
