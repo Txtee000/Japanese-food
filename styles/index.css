@@ -1,9 +1,16 @@
+@font-face {
+    font-family: "MN MINI Bold";
+    src: url(fonts/MN MINI Bold.ttf);   
+}
+@font-face {
+    font-family: "MN MINIMON";
+    src: url(fonts/MN MINIMON.ttf);
 *{
     margin: 0;
     padding: 0;
-    font-family: MN MINI;
-
+    font-family: "MN MINI Bold" , sans-serif;
 }
+
 .container{
     width: 100%px; /*a52 width 420px*/
     min-height: 100vh; 
@@ -118,7 +125,7 @@
     font-size: 20px;
 }
 .container .section2 .text-box p , .container .section2 .text-box p span {
-    font-family: MN MINI;
+    font-family: "MN MINIMON" , sans-serif;
     color: white;
     font-size: 16px;
 }
@@ -186,5 +193,5 @@
     top: 10px;
     color: white;
     font-size: 14px;
-    font-family: MN MINI;
+    font-family: "MN MINIMON" , sans-serif;
 }
