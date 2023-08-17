@@ -9,7 +9,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "MN MINI Bold" , sans-serif;
+    font-family: MN MINI Bold;
 }
 
 .container{
@@ -124,6 +124,7 @@
 .container .section2 .text-box span{ /*btn read more*/
     color: white;
     font-size: 20px;
+    font-family: "MN MINIMON" , sans-serif;
 }
 .container .section2 .text-box p , .container .section2 .text-box p span {
     font-family: "MN MINIMON" , sans-serif;
