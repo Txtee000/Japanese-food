@@ -30,6 +30,9 @@ header ul li a{
     padding-bottom: 20px ;
     text-align:center;
     box-sizing: border-box;  
+    font-family: MN MINI , serif;
+    font-family: MN MINI ;
+
 }
 header ul li:nth-of-type(1){
     padding-top: 30px;
