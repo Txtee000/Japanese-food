@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: MN MINIMON;
+    font-family: Kanit , serif;
     
 }
 
@@ -22,12 +22,15 @@
     color: white;
     padding-left: 141px;
     padding-top: 27px;
+
+
 }
 .section .header_box h1 span{
     background-color: rgba(255, 109, 109, 1);
     padding: 0 20px;
     border-radius: 50px;
     margin-left: 5px;
+    
 }
 .section .circle_wrap{
     background-color: rgba(255, 109, 109, 1);
