@@ -1,3 +1,4 @@
+//Read more btn
 const parentContainer = document.querySelector(".section2");
 parentContainer.addEventListener("click" , event=>{
     const current = event.target;
@@ -11,3 +12,4 @@ parentContainer.addEventListener("click" , event=>{
     current.textContent = current.textContent.includes("ดูเพิ่ม") ? "ย่อ":"ดูเพิ่ม";
 
 })
+//slide piecture btn

@@ -170,7 +170,7 @@
     border-radius: 15px;
     box-shadow: 4px 4px 7px 0px #958383;
     position: relative;
-    left: 32px; /*position box*/
+    left: 22px; /*position box*/
     top: 30px;
     
 }
@@ -218,23 +218,64 @@
     width: 80px;
     position: relative;
     border-radius: 56px;
-    left: 43px;
+    left: 60px;
     top: 21px;
 }
-.section4 .grid-area .view {
+.section4 .grid-area .wrapper {
     background-color: gray;
     position: relative;
-    width: 130px;
-    padding: 10px 24px;
+    max-width: 130px;
+    padding: 12px 24px;
     border-radius: 7px;
     position: relative;
-    left: -30px;
+    left: -10px;
 }
-.section4 .grid-area .view img{
+.section4 .grid-area .wrapper .arrow{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.section4 .grid-area .wrapper .arrow:nth-child(1){ /*position btn*/
+    left: -3px;
+    top: 50px;
+}
+.section4 .grid-area .wrapper .arrow:nth-child(3){ /*position btn*/
+    left:163px;
+    top: 50px;
+}
+
+.section4 .grid-area .wrapper .arrow img.left{
+    height: 15px;
+    padding-left: 1px;
+}
+.section4 .grid-area .wrapper .arrow img.right{
+    height: 15px;
+    padding-left: 4px;
+}
+.section4 .wrapper .view{
+    position: relative;
+    white-space: nowrap; /*รูปเเนวนอน*/
+    cursor: pointer;
+    overflow: hidden;
+    /* background-color: blue; */ /*frame of view*/
+    width: 150px;
+    left: -4.3px;
+    top: 3px;
+    scroll-behavior: smooth;
+
+}
+.section4 .grid-area .wrapper .view img{
     width: 140px;
     height: 94px;
     position: relative;
-    left: -5px;
+    margin-left: 20px;
     
-
+}
+.section4 .grid-area .wrapper .view img:first-child{
+    margin-left: 0px;
+}
+.section4 .grid-area .wrapper .view img:nth-child(4){
+    left: -10px;
 }
