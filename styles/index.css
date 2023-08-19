@@ -17,8 +17,8 @@
 }
 .container2{
     width: 100%; /*a52 width 420px*/
-    min-height: 80vh; 
-    height: 700px; /*height homepage*/
+    min-height: 100vh; 
+    height: 400px; /*height homepage*/
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.83),rgba(0, 0, 0, 0.83)),url(/images/bg2.png);
     background-position: center;
