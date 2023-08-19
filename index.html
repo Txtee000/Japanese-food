@@ -21,7 +21,7 @@
                 <ul>
                     <li class="info"><a href="#info">ข้อมูล</a></li>
                     <li class="type"><a href="#type">หมวดหมู่</a></li>
-                    <li class="restaruant"><a href="">ร้านอาหาร</a></li>
+                    <li class="restaruant"><a href="#res">ร้านอาหาร</a></li>
                 </ul>
             </nav>  
         </header>
@@ -104,32 +104,150 @@
         </div>
         <!--------------------------- ร้านอาหาร ---------------------------->
         <div class="section4">
-            <div class="link" id="type">.</div>
+            <div class="link" id="res">.</div>
             <div class="text-box">
                 <p class="header">ร้านอาหารเเนะนำ</p>  
             </div>
             <div class="grid-area">
+                <!------------------- shinkanzen ------------> 
                 <div class="logo">
                     <img src="./images/shinkanzen/shinkanzen.jpg">
                 </div>
                 <div class="wrapper">
-                    <div id="left" class="arrow"><img class="left" src="./images/left.png"></div>
-                    <div class="view">
+                    <div onclick="side_slide(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div id="view" class="view1"> 
                         <img src="./images/shinkanzen/4.jpg">
                         <img src="./images/shinkanzen/3.jpg">
                         <img src="./images/shinkanzen/2.jpg">
                         <img src="./images/shinkanzen/1.jpg">
                     </div>
-                    <div id="right" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div onclick="side_slide(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide1">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                    </div>
+                </div>
+                <!------------------- katsuya ------------> 
+                <div class="logo">
+                    <img src="./images/katsuya/katsuya.png">
+                </div>
+                <div class="wrapper">
+                    <div onclick="side_slide2(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div class="view2" id="view" >
+                        <img src="./images/katsuya/1.png">
+                        <img src="./images/katsuya/2.jpg">
+                        <img src="./images/katsuya/3.jpg">
+                        <img src="./images/katsuya/4.jpg">
+                        <img src="./images/katsuya/5.jpg">
+                    </div>
+                    <div onclick="side_slide2(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide2">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                        <span onclick="btm-slide(5)"></span>
+                    </div>
+                </div>
+                <!------------------- yayoi ------------> 
+                <div class="logo">
+                    <img src="./images/yayoi/yayoi.png">
+                </div>
+                <div class="wrapper">
+                    <div onclick="side_slide3(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div class="view3" id="view">
+                        <img src="./images/yayoi/1.jpg">
+                        <img src="./images/yayoi/2.png">
+                        <img src="./images/yayoi/3.jpg">
+                        <img src="./images/yayoi/4.jpg">
+                        <img src="./images/yayoi/5.jpg">
+                    </div>
+                    <div onclick="side_slide3(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide3">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                        <span onclick="btm-slide(5)"></span>
+                    </div>
+                </div>
+                <!------------------- hachiban ------------> 
+                <div class="logo">
+                    <img src="./images/hachiban/hachiban.png">
+                </div>
+                <div class="wrapper">
+                    <div onclick="side_slide4(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div id="view" class="view4" >
+                        <img src="./images/hachiban/1.png">
+                        <img src="./images/hachiban/2.png">
+                        <img src="./images/hachiban/3.png">
+                        <img src="./images/hachiban/4.jpg">
+                        <img src="./images/hachiban/5.jpg">
+                    </div>
+                    <div onclick="side_slide4(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide4">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                        <span onclick="btm-slide(5)"></span>
+                    </div>
+                </div>
+                <!------------------- zen ------------> 
+                <div class="logo">
+                    <img src="./images/zen/zen.jpg">
+                </div>
+                <div class="wrapper">
+                    <div onclick="side_slide5(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div id="view" class="view5">
+                        <img src="./images/zen/1.jpg">
+                        <img src="./images/zen/2.jpg">
+                        <img src="./images/zen/3.jpg">
+                        <img src="./images/zen/4.jpg">
+                    </div>
+                    <div onclick="side_slide5(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide5">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                    </div>
+                </div>
+                <!------------------- sushiexpress ------------> 
+                <div class="logo">
+                    <img src="./images/sushiexpress/sushiexpress.png">
+                </div>
+                <div class="wrapper">
+                    <div onclick="side_slide6(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                    <div id="view" class="view6">
+                        <img src="./images/sushiexpress/1.jpg">
+                        <img src="./images/sushiexpress/2.jpg">
+                        <img src="./images/sushiexpress/3.jpg">
+                        <img src="./images/sushiexpress/4.jpg">
+                        <img src="./images/sushiexpress/5.jpg">
+                        <img src="./images/sushiexpress/6.jpg">
+                        <img src="./images/sushiexpress/7.jpg">
+                    </div>
+                    <div onclick="side_slide6(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                    <div id="tab-slide" class="tab-slide6">
+                        <span onclick="btm-slide(1)"></span>
+                        <span onclick="btm-slide(2)"></span>
+                        <span onclick="btm-slide(3)"></span>
+                        <span onclick="btm-slide(4)"></span>
+                        <span onclick="btm-slide(5)"></span>
+                        <span onclick="btm-slide(6)"></span>
+                        <span onclick="btm-slide(7)"></span>
+                    </div>
                 </div>
     
-    
-            
             </div>
         </div>
 
 
     </div>
+    <div class="container2"></div>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
