@@ -31,10 +31,10 @@ function showImg(e){
         img1[i].style.display = "none";
     }
     for(i = 0; i < slide1.length; i++){
-        slide1[i].style.background = "rgba(255, 109, 109, 1)";
+        slide1[i].style.background = "white";
     }
     img1[indexValue-1].style.display = "block";
-    slide1[indexValue-1].style.background = "white";
+    slide1[indexValue-1].style.background = "rgba(255, 109, 109, 1)";
 }
 //set2
 var indexValue2 = 1; //ใช้คู่กับ html onclick
@@ -51,10 +51,10 @@ function showImg2(e){
         img2[i].style.display = "none";
     }
     for(i = 0; i < slide2.length; i++){
-        slide2[i].style.background = "rgba(255, 109, 109, 1)";
+        slide2[i].style.background = "white";
     }
     img2[indexValue2-1].style.display = "block";
-    slide2[indexValue2-1].style.background = "white";
+    slide2[indexValue2-1].style.background = "rgba(255, 109, 109, 1)";
 }
 //set3
 var indexValue3 = 1; //ใช้คู่กับ html onclick
@@ -71,10 +71,10 @@ function showImg3(e){
         img3[i].style.display = "none";
     }
     for(i = 0; i < slide3.length; i++){
-        slide3[i].style.background = "rgba(255, 109, 109, 1)";
+        slide3[i].style.background = "white";
     }
     img3[indexValue3-1].style.display = "block";
-    slide3[indexValue3-1].style.background = "white";
+    slide3[indexValue3-1].style.background = "rgba(255, 109, 109, 1)";
 }
 //set4
 var indexValue4 = 1; //ใช้คู่กับ html onclick
@@ -91,10 +91,10 @@ function showImg4(e){
         img4[i].style.display = "none";
     }
     for(i = 0; i < slide4.length; i++){
-        slide4[i].style.background = "rgba(255, 109, 109, 1)";
+        slide4[i].style.background = "white";
     }
     img4[indexValue4-1].style.display = "block";
-    slide4[indexValue4-1].style.background = "white";
+    slide4[indexValue4-1].style.background = "rgba(255, 109, 109, 1)";
 }
 //set5
 var indexValue5 = 1; //ใช้คู่กับ html onclick
@@ -111,10 +111,10 @@ function showImg5(e){
         img5[i].style.display = "none";
     }
     for(i = 0; i < slide5.length; i++){
-        slide5[i].style.background = "rgba(255, 109, 109, 1)";
+        slide5[i].style.background = "white";
     }
     img5[indexValue5-1].style.display = "block";
-    slide5[indexValue5-1].style.background = "white";
+    slide5[indexValue5-1].style.background = "rgba(255, 109, 109, 1)";
 }
 //set6
 var indexValue6 = 1; //ใช้คู่กับ html onclick
@@ -131,9 +131,9 @@ function showImg6(e){
         img6[i].style.display = "none";
     }
     for(i = 0; i < slide6.length; i++){
-        slide6[i].style.background = "rgba(255, 109, 109, 1)";
+        slide6[i].style.background = "white";
     }
     img6[indexValue6-1].style.display = "block";
-    slide6[indexValue6-1].style.background = "white";
+    slide6[indexValue6-1].style.background = "rgba(255, 109, 109, 1)";
 }
 
