@@ -1,5 +1,6 @@
 *{
     font-family: Kanit , serif;
+    scroll-behavior: smooth;
 }
 header{
     position: fixed;
@@ -11,6 +12,7 @@ header{
     background-color: rgba(43, 49, 61, 0.822); /*box*/
     transition: all .5s ease;
     z-index: 20;
+    
 }
 nav ul li a img{
     width: 10px;
@@ -32,7 +34,6 @@ header ul li a{
     padding-bottom: 20px ;
     text-align:center;
     box-sizing: border-box;  
-    font-family: MN Kha Ki,serif;
 }
 header ul li:nth-of-type(1){
     padding-top: 30px;

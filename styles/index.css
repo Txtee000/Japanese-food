@@ -217,7 +217,7 @@
     height: 33px;
     margin-top: 70px;
     position: relative;
-    left: 120px;  
+    left: 120px; 
 }
 .section4 .text-box .header{
     color: white;
@@ -284,6 +284,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .section4 #view img{
