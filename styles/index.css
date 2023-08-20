@@ -186,6 +186,7 @@
     position: relative;
     left: 22px; /*position box*/
     top: 30px;
+    text-decoration: none;
     
 }
 .section3 .grid-area .box img{
