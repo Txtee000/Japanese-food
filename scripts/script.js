@@ -136,4 +136,6 @@ function showImg6(e){
     img6[indexValue6-1].style.display = "block";
     slide6[indexValue6-1].style.background = "rgba(255, 109, 109, 1)";
 }
+//************************************** How to make about sushi **********************************************\\
+
 
