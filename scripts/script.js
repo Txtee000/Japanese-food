@@ -1,6 +1,5 @@
 //*******************************Read more btn********************************\\
 const parentContainer = document.querySelector(".section2");
-const addBg = document.querySelector(".container2")
 parentContainer.addEventListener("click" , event=>{
     const current = event.target;
     const isReadMoreBtn = current.className.includes("btn-read");
@@ -136,6 +135,5 @@ function showImg6(e){
     img6[indexValue6-1].style.display = "block";
     slide6[indexValue6-1].style.background = "rgba(255, 109, 109, 1)";
 }
-//************************************** How to make about sushi **********************************************\\
 
 
