@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/menu-back.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <link rel="stylesheet" href="./styles/oden.css">
+    <link rel="stylesheet" href="./styles/menu-back.css">    <title>Oden</title>
 </head>
 <body>
     <div class="container">
@@ -13,5 +14,56 @@
                 <a href="./index.html"><img src="./images/arrow-right.png"></a>   
            </nav> 
         </header>
+         <!---------------------------- logo tempura ------------------->
+         <div class="section">
+            <div class="topic">ODEN</div>
+            <a><img src="./images/oden/oden.png"></a>
+            <div class="text-box">
+                <p >จัดเป็นนาเบะประเภทหนึ่ง ที่นำวัตถุดิบ
+                    หลากหลายชนิด ไปต้มเป็นเวลานาน ในน้ำซุป  ที่ทำจากปลาแห้งและสาหร่ายคอมบุ                   
+                    <span id="read-more">
+                        จัดเป็นนาเบะประเภทหนึ่ง ที่นำวัตถุดิบ
+                        หลากหลายชนิด ไปต้มเป็นเวลานาน
+                        ในน้ำซุปที่ทำจากปลาแห้งและสาหร่ายคอมบุ 
+                        จนรสชาติซึมเข้าไปในวัตถุดิบ โอเด้งคืออาหาร
+                        ประจำฤดูหนาว มีขายอยู่ทั่วไปทั้งในร้านสะดวกซื้อ ร้านค้า และร้านแผงลอย โดยมักพบในรูปแบบเสียบไม้
+                    </span>
+                </p>
+                <span class="btn-read">ดูเพิ่ม</span>
+            </div>
+        </div>
+        <!---------------------- how to make sushi ------------------------->
+        <div class="section2">
+
+            <div id="making">
+                <div id="title">
+                    <span>เครื่องหลักที่ใส่ในโอเด้ง</span>
+                </div>   
+                <div id="content">
+                    <div id="ingredient">
+                        <div onclick="side_slide(-1)" class="arrow"><img class="left" src="./images/left.png"></div>
+                        <div id="view" class="view1"> 
+                            <img src="./images/oden/a1.jpg">
+                            <img src="./images/oden/a2.png">
+                            <img src="./images/oden/a3.jpg">
+                            <img src="./images/oden/a4.png">
+                        </div>
+                        <div onclick="side_slide(1)" class="arrow"><img class="right" src="./images/right.png"></div>
+                        <div id="tab-slide" class="tab-slide1">
+                            <span onclick="btm-slide(1)"></span>
+                            <span onclick="btm-slide(2)"></span>
+                            <span onclick="btm-slide(3)"></span>
+                            <span onclick="btm-slide(4)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <script src="./scripts/oden.js"></script>
 </body>
 </html>

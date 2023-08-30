@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kanit , serif;
+}
+.container{
+    width: 100%; /*a52 width 420px*/
+    min-height: 100vh; 
+    height: 1080px; /*height homepage*/
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.51)),url(/images/tempura/0.jpg);
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#container2{
+    width: 100%; 
+    height: 520px; 
+    background-color: rgba(12, 9, 8, 1);
+    position: absolute;
+    top: 1050px;
+    z-index: -1;
+}
+#container3{
+    width: 100%; 
+    height: 390px; 
+    background-color: rgba(49, 50, 61, 1);
+    position: absolute;
+    top: 1560px;
+    z-index: -1;
+}
+#container4{
+    width: 100%; 
+    height: 390px; 
+    background-color: rgba(12, 9, 8, 1);
+    position: absolute;
+    top: 1940px;
+    z-index: -1;
+}
+.section{
+    /* background-color: blue; */
+    width: 300px;
+    position: relative;
+    margin: auto;
+
+}
+.section .topic{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 3px; /*เพิ่มจากจุด center*/
+
+}
+.container .section img{
+    width: 153px;
+    height: 153px;
+    position: relative;
+    left: 78px;
+    top: 5px;
+}
+.container .section p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+}
+/****** content tempura + js read more *******/
+.container .section .text-box{
+    /* background-color: blue;  */
+    width: 299px; /*area of section2*/
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+.container .section .text-box span{ /*btn read more*/
+    color: white;
+    font-size: 20px;
+    
+}
+.container .section .text-box p , .container .section .text-box p span {
+    color: white;
+    font-size: 16px;
+}
+
+.container .section .text-box p span{ /*ซ่อนข้อความ*/
+    display: none;
+    
+}
+.container .section p span.show{ /*ตอนปรากฎ*/
+    display: inline;
+}
+/****** ingredient *******/
+.section2 .text-box{
+    background-color: rgba(255, 109, 109, 1);
+    border-radius: 34px;
+    width: 171px;
+    height: 33px;
+    margin-top: 40px;
+    position: relative;
+    left: 120px; 
+}
+.section2 .text-box .header{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.section2 .grid-area{
+    display: grid;
+    grid-template-columns: 50% 50% ; /*grid of box*/
+    justify-content: space-around;
+    grid-gap: 7px 0px;
+    
+}
+.section2 .grid-area .box img{ /*kani*/
+    width: 157px;
+    height: 157px;
+    padding-left: 30px;
+}
+.section2 .grid-area .box p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 8px;
+    font-size: 16px;
+}
+/****** how to make *******/
+.section3 .text-box{
+    background-color: rgba(255, 109, 109, 1);
+    border-radius: 34px;
+    width: 171px;
+    height: 33px;
+    margin-top: 40px;
+    position: relative;
+    left: 120px; 
+}
+.section3 .text-box .header{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.section3 .ingredient{
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.section3 .ingredient .p2{
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.section3 .ingredient .box{
+    width: 320px;
+}
+.section3 .ingredient .box h3.step2{
+    padding-top: 40px;
+
+}
+.section3 .ingredient .box p{
+    padding-top: 10px;
+}
+.section3 .ingredient .bgFood{
+    width: 225px;
+    height: 139px;
+    border-radius: 31px;
+    background-image: url(/images/tempura/00.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 46px 66px;
+}
+.section3 .ingredient .box2{
+    margin-top: -20px;
+}
+.section3 .ingredient .box2 p{
+    padding-top: 10px;
+}

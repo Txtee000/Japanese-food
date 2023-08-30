@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kanit , serif;
+}
+.container{
+    width: 100%; /*a52 width 420px*/
+    min-height: 100vh; 
+    height: 800px; /*height homepage*/
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.81),rgba(0, 0, 0, 0.81)),url(/images/oden/0.jpg);
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.section{
+    /* background-color: blue; */
+    width: 300px;
+    position: relative;
+    margin: auto;
+
+}
+.section .topic{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 0px; /*เพิ่มจากจุด center*/
+}
+.container .section img{
+    width: 153px;
+    height: 153px;
+    position: relative;
+    left: 70px;
+    top: 14px;
+}
+.container .section p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top: 25px;
+}   
+/****** content oden + js read more *******/
+.container .section .text-box{
+    /* background-color: blue;  */
+    width: 299px; /*area of section2*/
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+.container .section .text-box span{ /*btn read more*/
+    color: white;
+    font-size: 20px;
+    
+}
+.container .section .text-box p , .container .section .text-box p span {
+    color: white;
+    font-size: 16px;
+}
+.container .section .text-box p span{ /*ซ่อนข้อความ*/
+    display: none;
+    
+}
+.container .section p span.show{ /*ตอนปรากฎ*/
+    display: inline;
+}
+/****** btn oden + js btn *******/
+.section2 #making #title{
+    background-color: gray;
+    width: 220px;
+    height: 50px;
+    margin: 30px auto;
+    padding-top: 13px;
+    text-align: center;
+    border-radius: 39px;
+    box-shadow: 3px 4px 2px 0px rgba(255, 255, 255, 0.25);
+
+}
+.section2 #making #title span{
+    color: white;
+    font-size: 20px;  
+}
+.section2 #making #content{ /* frame of ingredient */
+    width: 420px;
+    height: 418px; 
+    overflow: hidden;
+    margin-top: -30px;
+}
+.section2 #making #ingredient{
+    background-color: rgb(163, 50, 50);
+    width: 420px;
+    height: 409px;
+    margin-top: 550px;
+    border-radius: 45px 45px 0px 0px;
+    max-height: 0px;
+    transition: .7s;
+    
+}
+.section2 #making #ingredient.active{
+    max-height: 409px;
+    margin-top: 11px;    
+}
+
+/*********************** btn slide *************************/
+.section2 #content  #ingredient  .arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 1);
+    opacity: 90%;
+    z-index: 5;
+}
+.section2 #content  #ingredient .arrow:nth-child(1){ /*position btn*/
+    left: 85px; /*position btn*/
+    top: 125px;
+}
+.section2 #content  #ingredient .arrow:nth-child(3){ /*position btn*/
+    left:305px; /*position btn*/
+    top:    125px;
+}
+
+.section2 #content  #ingredient .arrow img.left{
+    height: 25px; /*position arrow*/
+    padding-left: 1px;
+    padding-top: 2px;
+}
+.section2 #content  #ingredient .arrow img.right{
+    height: 25px; /*position arrow*/
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.section2 #content  #ingredient{
+    height: 515px; /*frame of img res*/
+    width: 100%;
+    overflow: hiddden;
+    /* background-color: rgb(110, 110, 197); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 #view{
+    position: relative; /*position img*/
+    top: -70px;
+    
+}
+.section2 #view img{
+    width: 176px;
+    height: 118px;
+    border-radius: 74px;
+}
+.section2 #tab-slide{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);  
+    
+}
+.section2 #tab-slide span{
+    height: 15px;
+    width: 15px;
+    margin: 169px 3px; 
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: 2;
+}
+.section2 #tab-slide span:hover{
+    background-color: rgba(255, 109, 109, 1);
+    
+}

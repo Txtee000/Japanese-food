@@ -13,17 +13,28 @@
 }
 #container2{
     width: 100%; /*a52 width 420px*/
-    height: 690px; /*height homepage*/
+    height: 3000px; /*height homepage*/
     background-color: rgba(44, 43, 43, 1);
     max-height: 0px;
-    margin-top: 300px;
+    margin-top: 30px;
     position: relative;
+    transition: max-height 0.5s;
+    z-index: 0;
 
 }
 #container2.add1{
-    max-height: 690px;
-    
+    max-height: 940px;   
 }
+#container2.add2{
+    max-height: 1220px;   
+}
+#container2.add3{
+    max-height: 1170px;   
+}
+#container2.add4{
+    max-height: 1100px;   
+}
+
 .section{
     /* background-color: blue; */
     width: 300px;
@@ -256,6 +267,7 @@
     border-radius: 19px;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 14;
 }
 .section3 #making2.active{ /* bg title2 change */
     background-image:linear-gradient(rgba(58, 58, 58, 1),rgba(58, 58, 58, 1)) , url(/images/sushi/rice.jpeg); 
@@ -345,6 +357,7 @@
     border-radius: 19px;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 14;
 }
 .section3 #making3.active{ /* bg title3 change */
     background-image:linear-gradient(rgba(58, 58, 58, 1),rgba(58, 58, 58, 1)) , url(/images/sushi/rice.jpeg); 
@@ -434,6 +447,7 @@
     border-radius: 19px;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 14;
 }
 .section3 #making4.active{ /* bg title3 change */
     background-image:linear-gradient(rgba(58, 58, 58, 1),rgba(58, 58, 58, 1)) , url(/images/sushi/rice.jpeg); 
